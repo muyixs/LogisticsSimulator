@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<logistics>
+    <order>
+        <id>TO-001</id>
+        <time>1</time>
+        <destination>Miami, FL</destination>
+        <priority>Cost</priority>
+        <items type="array">
+            <value>ABC123</value>
+            <value>CR2032</value>
+            <value>SN-241-L</value>
+            <value>MM35P</value>
+        </items>
+        <quantity type="array">
+            <value>180</value>
+            <value>320</value>
+            <value>50</value>
+            <value>120</value>
+        </quantity>
+    </order>
+       <order>
+       <id>TO-002</id>
+       <time>1</time>
+       <destination>Boston, MA</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>PL132-C</value>
+           <value>XLK200B</value>
+           <value>JBL3100</value>
+           <value>RX100-3</value>
+           <value>RL123A</value>
+       </items>
+       <quantity type="array">
+           <value>5</value>
+           <value>120</value>
+           <value>220</value>
+           <value>200</value>
+           <value>100</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-003</id>
+       <time>4</time>
+       <destination>Seattle, WA</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>XTP202</value>
+           <value>E241i</value>
+           <value>CT1928</value>
+       </items>
+       <quantity type="array">
+           <value>100</value>
+           <value>105</value>
+           <value>50</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-004</id>
+       <time>10</time>
+       <destination>Phoenix, AZ</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>CR2032</value>
+           <value>PU238</value>
+           <value>JBL3100</value>
+           <value>SR71-D</value>
+       </items>
+       <quantity type="array">
+           <value>200</value>
+           <value>145</value>
+           <value>55</value>
+           <value>85</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-005</id>
+       <time>7</time>
+       <destination>Chicago, IL</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>PL132-C</value>
+           <value>XLK200B</value>
+           <value>JBL3100</value>
+           <value>RX100-3</value>
+           <value>RL123A</value>
+       </items>
+       <quantity type="array">
+           <value>5</value>
+           <value>120</value>
+           <value>220</value>
+           <value>200</value>
+           <value>100</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-006</id>
+       <time>8</time>
+       <destination>Denver, CO</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>RL123A</value>
+           <value>CT1928</value>
+           <value>XTP202</value>
+           <value>ABC123</value>
+           <value>SN-241-L</value>
+       </items>
+       <quantity type="array">
+           <value>50</value>
+           <value>120</value>
+           <value>85</value>
+           <value>90</value>
+           <value>100</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-007</id>
+       <time>12</time>
+       <destination>Springfield, MA</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>RL123A</value>
+           <value>CT1928</value>
+           <value>SR71-D</value>
+       </items>
+       <quantity type="array">
+           <value>43</value>
+           <value>90</value>
+           <value>70</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-008</id>
+       <time>7</time>
+       <destination>Fargo, ND</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>PL132-C</value>
+           <value>XLK200B</value>
+           <value>ABC123</value>
+           <value>SN-241-L</value>
+       </items>
+       <quantity type="array">
+           <value>18</value>
+           <value>35</value>
+           <value>60</value>
+           <value>90</value>
+       </quantity>
+   </order>
+   <order>
+       <id>TO-009</id>
+       <time>13</time>
+       <destination>New York City, NY</destination>
+       <priority>Cost</priority>
+       <items type="array">
+           <value>CR2032</value>
+           <value>SN-241-L</value>
+           <value>MM35P</value>
+           <value>RX100-3</value>
+           <value>RL123A</value>
+       </items>
+       <quantity type="array">
+           <value>65</value>
+           <value>45</value>
+           <value>70</value>
+           <value>80</value>
+           <value>60</value>
+       </quantity>
+   </order>
+ </logistics>

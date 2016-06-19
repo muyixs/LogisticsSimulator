@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<logistics>
+    <facility>
+        <name>Seattle, WA</name>
+        <rate>8</rate>
+        <cost>300</cost>
+        <limit>140</limit>
+        <links type="array">
+            <value>Fargo, ND</value>
+            <value>San Francisco, CA</value>
+        </links>
+        <distances type="array">
+            <value>1426</value>
+            <value>808</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>San Francisco, CA</name>
+        <rate>12</rate>
+        <cost>300</cost>
+        <limit>120</limit>
+        <links type="array">
+            <value>Seattle, WA</value>
+            <value>Denver, CO</value>
+            <value>Los Angeles, CA</value>
+            <value>Springfield, MA</value>
+        </links>
+        <distances type="array">
+            <value>808</value>
+            <value>1249</value>
+            <value>382</value>
+            <value>680</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Los Angeles, CA</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>120</limit>
+        <links type="array">
+            <value>San Francisco, CA</value>
+            <value>Phoenix, AZ</value>
+            <value>Green Bay, WI</value>
+        </links>
+        <distances type="array">
+            <value>382</value>
+            <value>372</value>
+            <value>440</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Phoenix, AZ</name>
+        <rate>8</rate>
+        <cost>300</cost>
+        <limit>90</limit>
+        <links type="array">
+            <value>Los Angeles, CA</value>
+            <value>Santa Fe, NM</value>
+        </links>
+        <distances type="array">
+            <value>372</value>
+            <value>480</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Green Bay, WI</name>
+        <rate>12</rate>
+        <cost>300</cost>
+        <limit>120</limit>
+        <links type="array">
+            <value>Boston, MA</value>
+            <value>Norfolk, VA</value>
+            <value>Los Angeles, CA</value>
+        </links>
+        <distances type="array">
+            <value>520</value>
+            <value>720</value>
+            <value>440</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Springfield, MA</name>
+        <rate>8</rate>
+        <cost>300</cost>
+        <limit>90</limit>
+        <links type="array">
+            <value>Fargo, ND</value>
+            <value>Denver, CO</value>
+            <value>San Francisco, CA</value>
+        </links>
+        <distances type="array">
+            <value>940</value>
+            <value>740</value>
+            <value>680</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Naperville, IL</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>120</limit>
+        <links type="array">
+            <value>St. Louis, MO</value>
+            <value>Detroit, MI</value>
+            <value>New York City, NY</value>
+        </links>
+        <distances type="array">
+            <value>480</value>
+            <value>220</value>
+            <value>360</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Denver, CO</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>130</limit>
+        <links type="array">
+            <value>San Francisco, CA</value>
+            <value>Santa Fe, NM</value>
+            <value>Fargo, ND</value>
+            <value>St. Louis, MO</value>
+            <value>Springfield, MA</value>
+        </links>
+        <distances type="array">
+            <value>1249</value>
+            <value>392</value>
+            <value>889</value>
+            <value>851</value>
+            <value>740</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Santa Fe, NM</name>
+        <rate>8</rate>
+        <cost>300</cost>
+        <limit>90</limit>
+        <links type="array">
+            <value>Phoenix, AZ</value>
+            <value>Denver, CO</value>
+            <value>St. Louis, MO</value>
+            <value>Austin, TX</value>
+        </links>
+        <distances type="array">
+            <value>480</value>
+            <value>392</value>
+            <value>1032</value>
+            <value>688</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Fargo, ND</name>
+        <rate>8</rate>
+        <cost>300</cost>
+        <limit>110</limit>
+        <links type="array">
+            <value>Seattle, WA</value>
+            <value>Denver, CO</value>
+            <value>Chicago, IL</value>
+            <value>Springfield, MA</value>
+        </links>
+        <distances type="array">
+            <value>1426</value>
+            <value>889</value>
+            <value>643</value>
+            <value>940</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Austin, TX</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>120</limit>
+        <links type="array">
+            <value>Santa Fe, NM</value>
+            <value>St. Louis, MO</value>
+            <value>New Orleans, LA</value>
+        </links>
+        <distances type="array">
+            <value>688</value>
+            <value>825</value>
+            <value>512</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>St. Louis, MO</name>
+        <rate>12</rate>
+        <cost>300</cost>
+        <limit>130</limit>
+        <links type="array">
+            <value>Chicago, IL</value>
+            <value>Nashville, TN</value>
+            <value>Austin, TX</value>
+            <value>Santa Fe, NM</value>
+            <value>Denver, CO</value>
+            <value>Naperville, IL</value>
+        </links>
+        <distances type="array">
+            <value>297</value>
+            <value>309</value>
+            <value>825</value>
+            <value>1032</value>
+            <value>851</value>
+            <value>480</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Chicago, IL</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>100</limit>
+        <links type="array">
+            <value>Fargo, ND</value>
+            <value>St. Louis, MO</value>
+            <value>New York City, NY</value>
+            <value>Detroit, MI</value>
+        </links>
+        <distances type="array">
+            <value>643</value>
+            <value>297</value>
+            <value>790</value>
+            <value>282</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>New Orleans, LA</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>90</limit>
+        <links type="array">
+            <value>Austin, TX</value>
+            <value>Nashville, TN</value>
+            <value>Atlanta, GA</value>
+            <value>Miami, FL</value>
+        </links>
+        <distances type="array">
+            <value>512</value>
+            <value>532</value>
+            <value>469</value>
+            <value>864</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Nashville, TN</name>
+        <rate>8</rate>
+        <cost>300</cost>
+        <limit>110</limit>
+        <links type="array">
+            <value>St. Louis, MO</value>
+            <value>New Orleans, LA</value>
+            <value>Norfolk, VA</value>
+        </links>
+        <distances type="array">
+            <value>309</value>
+            <value>532</value>
+            <value>706</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Detroit, MI</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>105</limit>
+        <links type="array">
+            <value>Chicago, IL</value>
+            <value>New York City, NY</value>
+            <value>Boston, MA</value>
+            <value>Naperville, IL</value>
+        </links>
+        <distances type="array">
+            <value>282</value>
+            <value>614</value>
+            <value>719</value>
+            <value>220</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Boston, MA</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>110</limit>
+        <links type="array">
+            <value>Detroit, MI</value>
+            <value>New York City, NY</value>
+            <value>Green Bay, WI</value>
+        </links>
+        <distances type="array">
+            <value>719</value>
+            <value>215</value>
+            <value>520</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>New York City, NY</name>
+        <rate>14</rate>
+        <cost>300</cost>
+        <limit>140</limit>
+        <links type="array">
+            <value>Boston, MA</value>
+            <value>Detroit, MI</value>
+            <value>Chicago, IL</value>
+            <value>Norfolk, VA</value>
+            <value>Naperville, IL</value>
+        </links>
+        <distances type="array">
+            <value>215</value>
+            <value>614</value>
+            <value>790</value>
+            <value>363</value>
+            <value>360</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Norfolk, VA</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>120</limit>
+        <links type="array">
+            <value>New York City, NY</value>
+            <value>Nashville, TN</value>
+            <value>Atlanta, GA</value>
+            <value>Green Bay, WI</value>
+        </links>
+        <distances type="array">
+            <value>363</value>
+            <value>706</value>
+            <value>566</value>
+            <value>720</value>
+        </distances>
+    </facility>
+    <facility>
+        <name>Atlanta, GA</name>
+        <rate>10</rate>
+        <cost>300</cost>
+        <limit>90</limit>
+        <links type="array">
+            <value>Norfolk, VA</value>
+            <value>New Orleans, LA</value>
+            <value>Miami, FL</value>
+        </links>
+        <distances type="array">
+            <value>566</value>
+            <value>469</value>
+            <value>663</value>
+            </distances>
+        </facility>
+        <facility>
+            <name>Miami, FL</name>
+            <rate>12</rate>
+            <cost>300</cost>
+            <limit>120</limit>
+            <links type="array">
+                <value>Atlanta, GA</value>
+                <value>New Orleans, LA</value>
+            </links>
+            <distances type="array">
+                <value>663</value>
+                <value>864</value>
+            </distances>
+        </facility>
+    </logistics>
